@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: "14.17.0"
       - name: Install node_modules
-        run: vite
+        run: npm
       - name: Build the project
         run: npm run-script build
       - name: Setup Finished
