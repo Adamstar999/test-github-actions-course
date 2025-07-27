@@ -1,0 +1,25 @@
+# This is my comment
+
+# myapp:
+#   service: my-code-project
+#   test: script1
+#   test2: script2
+#   myArray: [1, 2, 3, 4, 5]
+#   myArray2:
+#     - key1: value1
+#       keyrandom: valuerandom
+#     - key2: value2
+
+# service: |
+#   my name is Adam
+#   I am 20 years old
+#   I am me
+# key: hello world
+
+name: My First Github Action
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world!!!!"
