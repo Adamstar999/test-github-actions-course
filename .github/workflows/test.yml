@@ -29,6 +29,6 @@ jobs:
       - name: Install node_modules
         run: npm install vite
       - name: Build the project
-        run: npm build
+        run: npm run-script build
       - name: Setup Finished
         run: echo "hurray!!!"
